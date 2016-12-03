@@ -5,6 +5,7 @@ Created on Thu Oct 13 09:54:22 2016
 @author: ioannis
 """
 # Run on IPython (py2_7)
+# Need to Transform to Python 3
 
 # World Map
 

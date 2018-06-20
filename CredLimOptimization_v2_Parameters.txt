@@ -1,0 +1,42 @@
+# Manual Review Parameters
+#   ManualReview Percent Limit
+mrLimit = 0.05
+#   Assume 50% Acceptance Rate
+mrAcceptRate = 0.50
+
+# Max Expected Writeoff Percent Limit
+maxwoLimit = 0.5
+
+# Industry Segments
+induseg = ['N1', 'N2', 'N3']
+
+# Size Segments
+sizeseg = ['S0', 'S1', 'S2', 'S3', 'S4', 'S5', 'S6']
+
+# Risk Segments
+riskseg = ['H', 'M', 'L']
+
+# Model Data File
+data/clo_pulp_data_v2.csv
+# Model Data File Metadata
+varType = [str,str,str,int,int,float,float,float,float,int,float,float,float,float,int,float,float,float,float]
+index_slice = slice(,4)
+var_slice = slice(4,)
+
+# Scale Parameters
+varsScale = {
+ 'cum_expneed': 1e-06,
+ 'cum_exprev': 1e-06,
+ 'cum_n': 0.001,
+ 'cum_wotot': 1e-06,
+ 'cum_wotot_mr': 1e-06,
+ 'expneed': 1e-06,
+ 'exprev': 1e-06,
+ 'n': 0.001,
+ 'over_n': 0.001,
+ 'over_wotot': 1e-06,
+ 'over_wotot_mr': 1e-06,
+ 'wotot': 1e-06,
+ 'wotot_mr': 1e-06}
+
+
